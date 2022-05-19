@@ -1,0 +1,129 @@
+{
+    "products": [
+      {
+        "_id": "1",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4l_6Pw4Kvf9I1C6GM8SGD6_S5RRNjNzMqm2Cgw3n_dg&s",
+        "title": "Rolex Royal",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+        "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 1295
+      },
+      {
+        "_id": "2",
+        "image": "https://media.istockphoto.com/photos/luxury-watch-isolated-on-white-background-picture-id1290970148?b=1&k=20&m=1290970148&s=170667a&w=0&h=EzdSRywWjdJCYYlSfVf0yEuJUN6VH-8NLgStbGGkELY=",
+        "title": "Jaeger-LeCoultre",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+        "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 2399
+      },
+      {
+        "_id": "3",
+        "image": "https://images.unsplash.com/photo-1614703418052-d5b893d495bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d3Jpc3R3YXRjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "title": "Patek Philippe",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+        "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 1696
+      },
+      {
+        "_id": "4",
+        "image": "https://images.unsplash.com/photo-1582150264904-e0bea5ef0ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "title": "Audemars Piguet",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 4999
+      },
+      {
+        "_id": "5",
+        "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+        "title": "Jaeger-LeCoultre",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 2999
+      },
+      {
+        "_id": "6",
+        "image": "https://images.unsplash.com/photo-1619946928632-abefa12506e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=432&q=80",
+        "title": "IWC Schaffhausen",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 2499
+      },
+      {
+        "_id": "7",
+        "image": "https://images.unsplash.com/photo-1610395219791-21b0353e43cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "title": "Blancpain",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 3256
+      },
+      {
+        "_id": "8",
+        "image": "https://images.unsplash.com/photo-1595923533867-ff8a01335ff9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "title": "Ulysse Nardin",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 4311
+      },
+      {
+        "_id": "9",
+        "image": "https://images.unsplash.com/photo-1557531365-e8b22d93dbd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "title": "Girard-Perregaux",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person.",
+                "availableSizes": [
+          "Pure Lather",
+          "Chain",
+          "Golen Lather",
+          "Sliver Chain"
+        ],
+        "price": 2255
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }]
+}
+     
+    

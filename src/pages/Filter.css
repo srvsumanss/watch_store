@@ -1,0 +1,37 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem #1d0101 solid;
+    font-weight: bolder;
+    
+  }
+  .filter div {
+    flex: 1;
+  }
+  .Login{
+    height: 300px;
+    width: 500px;
+border:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: blue;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(7, 70, 126);
+    color: blanchedalmond;
+    border-radius: 15px;
+  }
+  .signup{
+    height: 400px;
+    width: 300px;
+border:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: blue;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(7, 70, 126);
+    color: blanchedalmond;
+  }
