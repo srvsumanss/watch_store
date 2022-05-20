@@ -1,32 +1,89 @@
-import React from 'react'
-import { useState } from 'react'
-import Navbar from "../components/Navbar";
 
+import { useState } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import "./login.css";
+// import Deals from "../components/Deals";
+ import Navbar from "../components/Navbar";
 
 const Login = () => {
-  const [email , setEmail] = useState("");
-  const [password , setPassword] = useState("") ;
-  return (
-    <>
-    <Navbar/>
-      <div  className='Login' >
-      <form className="login_form">
-      <h1>Registration</h1>
-       
-        
-       <input type="email" placeholder='Enter Email' value={email} onChange={(e)=> setEmail(e.target.value)}  />
-        <br />
-        <input type="password" placeholder='Enter Password' value={password} onChange={(e)=> setPassword (e.target.value)} />
-        <br />
-        <button>Click Me</button>
-       </form>
-      </div>
-    
-    </>
-    
-  )
-  
-}
+	const [data, setData] = useState({ email: "", password: "" });
+	const [error, setError] = useState("");
 
-export default Login
+	const handleChange = ({ currentTarget: input }) => {
+		setData({ ...data, [input.name]: input.value });
+	};
 
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+		try {
+			const url = "http://localhost:3500/auth";
+			const { data: res } = await axios.post(url, data);
+			localStorage.setItem("token", res.data);
+			window.location = "/";
+		} catch (error) {
+			if (
+				error.response &&
+				error.response.status >= 400 &&
+				error.response.status <= 500
+			) {
+				setError(error.response.data.message);
+			}
+		}
+	};
+
+	return (
+        <div>
+            
+            <Navbar/> 
+		  <div className="login">
+			<div className="">
+				<div className="left">
+					<form className="login_form" onSubmit={handleSubmit}>
+						<h1>Login to Your Account</h1>
+						< input 
+							type="email"
+							placeholder="Email"
+							name="email"
+							onChange={handleChange}
+							value={data.email}
+							required
+							className="input"
+						/>
+
+						<br />
+						<br />
+						<input
+							type="password"
+							placeholder="Password"
+							name="password"
+							onChange={handleChange}
+							value={data.password}
+							required
+							className="input"
+						/>
+						{error && <div className="error_msg">{error}</div>}
+						<br />
+						<br />
+						<Link to={"/"}>
+						<button type="submit" className="green_btn">Sign In</button>
+						</Link>
+							
+						
+					</form>
+				</div>
+				<div className="right">
+					<h1>New Here ?</h1>
+					<Link to="/Signup">
+						<button type="button" className="white_btn">
+							Sign Up
+						</button>
+					</Link>
+				</div>
+			</div>
+		</div>
+        </div>
+	);
+};
+
+export default Login;

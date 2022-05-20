@@ -12,6 +12,8 @@ import  styles  from './Navbar.modules.css';
       <Link to={"/Login"}>Login</Link>
       <Link to={"/Signup"}>Signup</Link>
       <Link to={"/Products"}>Products</Link>
+      <Link to={"/Cart"}>Cart</Link>
+      <Link to={"/Card"}>Card</Link>
       </div>
   )
 }

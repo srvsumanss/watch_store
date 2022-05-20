@@ -10,28 +10,3 @@
   .filter div {
     flex: 1;
   }
-  .Login{
-    height: 300px;
-    width: 500px;
-border:1px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: blue;
-    margin: auto;
-    margin-top: 100px;
-    background-color: rgb(7, 70, 126);
-    color: blanchedalmond;
-    border-radius: 15px;
-  }
-  .signup{
-    height: 400px;
-    width: 300px;
-border:1px solid black;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: blue;
-    margin: auto;
-    margin-top: 100px;
-    background-color: rgb(7, 70, 126);
-    color: blanchedalmond;
-  }

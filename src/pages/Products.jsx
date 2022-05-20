@@ -5,7 +5,7 @@ import Modal from "react-modal";
 import Zoom from "react-reveal/Zoom";
 import { connect } from "react-redux";
 import { fetchProducts } from "../redux/action/ProductAction";
-
+import { addToCart } from "../redux/action/CartAction";
 import Filter from "./Filter";
 import Navbar from "../components/Navbar";
 
@@ -114,6 +114,6 @@ export default connect(
   (state) => ({ products: state.products.filteredItems }),
   {
     fetchProducts,
-   
+   addToCart,
   }
 )(Product);
