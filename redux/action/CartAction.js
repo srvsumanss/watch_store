@@ -9,6 +9,7 @@ export const addToCart = (product) => (dispatch, getState) => {
       x.count++;
     }
   });
+  
   if (!alreadyExists) {
     cartItems.push({ ...product, count: 1 });
   }
